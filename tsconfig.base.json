@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "paths": {}
+  },
+  "exclude": [
+    "**/node_modules",
+    "**/dist",
+    "**/fixtures",
+    "**/*.test.ts"
+  ]
+}
